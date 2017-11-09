@@ -263,7 +263,7 @@ snit::type versioned_interpreter {
     }
 
     if [regexp -line {^origin$} [$self git remote]] {
-      $self git push origin master 
+      $self git push origin $::smeggdrop_github_branch 
     }
 
     return -code $code $result

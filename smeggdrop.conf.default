@@ -2,6 +2,9 @@
 # Copy this file to your eggdrop root and edit accordingly,
 # then load smeggdrop.tcl from eggdrop.conf.
 
+# Github
+set smeggdrop_github_branch           master
+
 #
 # NickServ settings - comment these out if you don't need to identify
 #
